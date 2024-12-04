@@ -14,6 +14,9 @@ save a ton of CPU resources by removing the need to destroy and create often and
 Observer (Additonal Design Pattern)
 The observer pattern in this tetris game allows the player to see the currently active amount of blocks, everytime an object from the object pool gets set active, the observer is updated to display that number. This is a smart use the observer because it can be tied in with score to show players the more blocks they have on screen the better their score multiplier will be.
 
+DLL (Addtional Design Pattern)
+I also implemented a DLL for the game that I created, i gave this DLL a simple feature of setting the time scale, better know as pausing and unpausing the game. In the DLL script itself I chose not to hard bind the inputs for the functions incase i wanted to keep the functions modular which could allow for custom button remapping which is another use for the command pattern.
+
 
 
 The Whole Project
