@@ -121,6 +121,7 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/DLL/ClassLibrary1.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -357,6 +358,7 @@
 "Assets/CommandPattern/GameRotationsManager.cs"
 "Assets/CommandPattern/ICommand.cs"
 "Assets/CommandPattern/ICommandRotate.cs"
+"Assets/DLL/TImeManager.cs"
 "Assets/ObjectPool/ObjectPool.cs"
 "Assets/Observer/PoolObserver.cs"
 "Assets/OtherScripts/Piece.cs"
